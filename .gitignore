@@ -1,0 +1,21 @@
+# OBSIDIAN — ignore scan artifacts & local tooling
+obs_workspace/
+obs_tools/
+obs_reports/
+*_report.json
+*.sarif.json
+*_ai_analysis.md
+obsidian_report.json
+wapiti_report.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Secrets / local config
+*.env
+.env*
+secrets.*
